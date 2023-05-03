@@ -1,0 +1,35 @@
+.navbar{
+    width: 100vw; 
+    background-color: rgb(209, 207, 207);
+    color: white;    
+ }
+
+ .nav-link {    
+    color: white;   
+}
+
+.item-navbar:hover{
+    background-color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 8px;     
+}
+
+ .me-auto{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 0px 0px 0px 0px;   
+}
+
+.logo{
+    padding: 0;  
+}
+
+
+@media (min-width: 1024px) {
+    .me-auto{        
+        margin: 0px 0px 0px 250px;   
+    }
+}
