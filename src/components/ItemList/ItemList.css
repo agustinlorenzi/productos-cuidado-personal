@@ -1,0 +1,13 @@
+* {    
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*.ordenCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}*/

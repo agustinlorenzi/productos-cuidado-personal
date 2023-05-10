@@ -1,8 +1,21 @@
+* {    
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
 .parrafo {
     margin: 20px;
     font-size: 20px;
     padding: 20px;
     background-color: rgb(179, 177, 177);
     font-weight: 500;
-    color: white;    
+    color: white; 
+      
+}
+
+.control{
+    display: flex;
+    flex-wrap: wrap;
 }
