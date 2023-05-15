@@ -19,17 +19,17 @@ const ItemListContainer = ({ greeting }) => {
     console.log("la cantidad de item count es " + cantidad)
   }
 
+  //console.log(productos)
+
 
   return (
-    <div >
-      <p className='parrafo'>{greeting}</p>
+    <div className='fondo'>
+      <div>
+        <p className='parrafo'>{greeting}</p>
+      </div>
       <div className='control'>
       {loading ? "Cargando" : productos.map(prod=><div key={prod.id}>{<ItemList prod={prod}/>}</div>)}
-
       </div>
-      
-      {/* {loading ? <Loader /> : productos.map((prod => <div key={prod.id}>{<ItemList prod={prod} />}</div>))} */}
-
       <ItemCount stock={5} initial={1} onAdd={onAdd} />
 
     </div>

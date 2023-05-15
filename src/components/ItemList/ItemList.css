@@ -5,9 +5,11 @@
     
 }
 
-/*.ordenCard{
-    display: flex;
+.ordenCard{
+    /*display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
+    width: 300px;
     
-}*/
+    
+}
